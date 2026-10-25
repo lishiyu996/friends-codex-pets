@@ -1,0 +1,7 @@
+{
+  "id": "friends-monica-mvp",
+  "displayName": "莫妮卡",
+  "description": "朝左单动作：叉腰持毛巾、抱臂与眨眼；保留 v3 节奏，所有任务及交互状态共用此循环。",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp"
+}

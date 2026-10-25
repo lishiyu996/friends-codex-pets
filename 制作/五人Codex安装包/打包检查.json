@@ -1,0 +1,162 @@
+[
+  {
+    "name": "罗斯",
+    "pet_id": "friends-ross-mvp",
+    "source_gif": "制作/五人单动作预览/罗斯/罗斯-动作预览-v3.gif",
+    "source_sha256": "cf615038ee00c7036bff888054a7a6d6047e498fcbf165595936e67edd1e746d",
+    "spritesheet": "制作/五人Codex安装包/friends-ross-mvp/spritesheet.webp",
+    "spritesheet_sha256": "5a4ae5553b81b4ae8c868e62d2cb23b427d6cf5e86e88d456e36beb0cf416df0",
+    "size_bytes": 598234,
+    "dimensions": [
+      1536,
+      1872
+    ],
+    "encoding": "lossless animated WebP",
+    "cycle_ms": 6900,
+    "frame_durations_ms": [
+      1800,
+      120,
+      580,
+      220,
+      330,
+      1100,
+      120,
+      1580,
+      250,
+      300,
+      120,
+      380
+    ],
+    "all_72_cells_match_source_at_each_time": true,
+    "comparison_ignores_hidden_rgb_at_alpha_zero": true,
+    "all_states_share_single_loop": true,
+    "source_artwork_modified": false
+  },
+  {
+    "name": "乔伊",
+    "pet_id": "friends-joey-mvp",
+    "source_gif": "制作/五人单动作预览/乔伊/乔伊-动作预览-v3.gif",
+    "source_sha256": "a6cb5446d4a631aa72a2686a825dee3fca169f0580e58c0e193855ade2765156",
+    "spritesheet": "制作/五人Codex安装包/friends-joey-mvp/spritesheet.webp",
+    "spritesheet_sha256": "ff20b1b234047033834d89591acd98404e363c49f9b7b38f768b98a47aeb9075",
+    "size_bytes": 531946,
+    "dimensions": [
+      1536,
+      1872
+    ],
+    "encoding": "lossless animated WebP",
+    "cycle_ms": 6240,
+    "frame_durations_ms": [
+      2200,
+      120,
+      880,
+      220,
+      260,
+      500,
+      260,
+      660,
+      120,
+      1020
+    ],
+    "all_72_cells_match_source_at_each_time": true,
+    "comparison_ignores_hidden_rgb_at_alpha_zero": true,
+    "all_states_share_single_loop": true,
+    "source_artwork_modified": false
+  },
+  {
+    "name": "菲比",
+    "pet_id": "friends-phoebe-mvp",
+    "source_gif": "制作/五人单动作预览/菲比/菲比-动作预览-v3.gif",
+    "source_sha256": "ac12675c7911858c5d5594ee3eafda60d34863ca698b1517186fbb69fecb2a68",
+    "spritesheet": "制作/五人Codex安装包/friends-phoebe-mvp/spritesheet.webp",
+    "spritesheet_sha256": "4bda668554e7017283d9ba4bd42816852e6241dd40456fa64fbd026ca37c7dba",
+    "size_bytes": 906788,
+    "dimensions": [
+      1536,
+      1872
+    ],
+    "encoding": "lossless animated WebP",
+    "cycle_ms": 4560,
+    "frame_durations_ms": [
+      360,
+      100,
+      120,
+      140,
+      360,
+      360,
+      360,
+      480,
+      360,
+      360,
+      100,
+      120,
+      140,
+      360,
+      360,
+      480
+    ],
+    "all_72_cells_match_source_at_each_time": true,
+    "comparison_ignores_hidden_rgb_at_alpha_zero": true,
+    "all_states_share_single_loop": true,
+    "source_artwork_modified": false
+  },
+  {
+    "name": "莫妮卡",
+    "pet_id": "friends-monica-mvp",
+    "source_gif": "制作/五人单动作预览/莫妮卡/莫妮卡-动作预览-v3.gif",
+    "source_sha256": "daeb6066f2b38f8049879aea7d656aa4fd7a3a974740b1ea64173d4b5986e230",
+    "spritesheet": "制作/五人Codex安装包/friends-monica-mvp/spritesheet.webp",
+    "spritesheet_sha256": "f7bea0d130883a1a2172b72e93a188dfb8068800f177f52d4604ceb8ba6ae740",
+    "size_bytes": 289946,
+    "dimensions": [
+      1536,
+      1872
+    ],
+    "encoding": "lossless animated WebP",
+    "cycle_ms": 8040,
+    "frame_durations_ms": [
+      1300,
+      120,
+      1080,
+      300,
+      1200,
+      140,
+      1900,
+      300,
+      660,
+      120,
+      920
+    ],
+    "all_72_cells_match_source_at_each_time": true,
+    "comparison_ignores_hidden_rgb_at_alpha_zero": true,
+    "all_states_share_single_loop": true,
+    "source_artwork_modified": false
+  },
+  {
+    "name": "钱德勒",
+    "pet_id": "friends-chandler-mvp",
+    "source_gif": "制作/五人单动作预览/钱德勒/钱德勒-动作预览-v3.gif",
+    "source_sha256": "7480180274f98cfb5cfd86f78ebffd4a853cdeb1c84ed92c949f9d4905173707",
+    "spritesheet": "制作/五人Codex安装包/friends-chandler-mvp/spritesheet.webp",
+    "spritesheet_sha256": "edf79f4381d1d2c57b3d3944551fadb4464a600948f9abfc49569ddc3e242286",
+    "size_bytes": 233400,
+    "dimensions": [
+      1536,
+      1872
+    ],
+    "encoding": "lossless animated WebP",
+    "cycle_ms": 2560,
+    "frame_durations_ms": [
+      900,
+      180,
+      140,
+      160,
+      180,
+      1000
+    ],
+    "all_72_cells_match_source_at_each_time": true,
+    "comparison_ignores_hidden_rgb_at_alpha_zero": true,
+    "all_states_share_single_loop": true,
+    "source_artwork_modified": false
+  }
+]

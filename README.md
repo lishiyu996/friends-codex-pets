@@ -2,7 +2,7 @@
 
 《老友记》六位主角的非官方 Codex 桌宠素材项目。采用 3D 卡通造型、透明背景与朝画面左侧的单动作循环。
 
-**当前版本：瑞秋提供 Codex 安装包，其余五人提供独立 PNG、动作分帧和 GIF 预览。** 本仓库包含素材与制作记录，不包含独立桌宠应用或 Codex 客户端。
+**当前版本：六位角色均提供可安装的 Codex 单动作桌宠包，集中在本仓库。** 瑞秋保留朝左待机眨眼，其余五人沿用现有 v3 动作。每个角色均可单独下载安装；本仓库包含素材、打包工具与制作记录，不包含独立桌宠应用或 Codex 客户端。
 
 <table>
 <tr><th>瑞秋 · 待机眨眼</th><th>罗斯 · 抱书与伸手</th><th>乔伊 · 吃披萨</th></tr>
@@ -21,35 +21,57 @@
 
 ## 下载与使用
 
-- [瑞秋 Codex MVP 安装包](制作/瑞秋/final/瑞秋-MVP-安装包.zip)：包含 `pet.json` 与 `spritesheet.webp`。
-- [五人独立图像与 GIF v3](制作/五人单动作预览/五人独立图像与GIF-v3.zip)：51 个文件，包括独立形象、动作帧、闭眼姿态和 GIF。
-- [Releases](https://github.com/lishiyu996/friends-codex-pets/releases)：公开版本附件。
+推荐前往 [v0.2.0 六人安装包](https://github.com/lishiyu996/friends-codex-pets/releases/tag/v0.2.0)，下载任意角色的 ZIP。六位角色都在本仓库，也可以分别下载下表中的安装包。
 
-### 安装瑞秋
+| 角色 | Codex 安装包 | 安装目录名 |
+| --- | --- | --- |
+| 瑞秋 | [下载 ZIP](制作/瑞秋/final/瑞秋-MVP-安装包.zip) | `friends-rachel-mvp` |
+| 罗斯 | [下载 ZIP](制作/五人Codex安装包/friends-ross-mvp.zip) | `friends-ross-mvp` |
+| 乔伊 | [下载 ZIP](制作/五人Codex安装包/friends-joey-mvp.zip) | `friends-joey-mvp` |
+| 菲比 | [下载 ZIP](制作/五人Codex安装包/friends-phoebe-mvp.zip) | `friends-phoebe-mvp` |
+| 莫妮卡 | [下载 ZIP](制作/五人Codex安装包/friends-monica-mvp.zip) | `friends-monica-mvp` |
+| 钱德勒 | [下载 ZIP](制作/五人Codex安装包/friends-chandler-mvp.zip) | `friends-chandler-mvp` |
 
-已在本项目制作环境核对 Codex 的本地宠物目录与 v1 图集格式。需要支持自定义宠物的 Codex 桌面客户端；不同版本的入口与兼容性可能不同。
+每个 ZIP 都包含一个角色文件夹，内有 `pet.json` 与 `spritesheet.webp`。[五人独立图像与 GIF v3](制作/五人单动作预览/五人独立图像与GIF-v3.zip) 另供查看与制作使用。
 
-解压瑞秋安装包，将两个文件放入 Codex 数据目录的 `pets/friends-rachel-mvp/`。默认结构为：
+### 安装任意角色
+
+需要支持自定义宠物的 Codex 桌面客户端。将角色 ZIP 中的整个角色文件夹解压到 Codex 数据目录的 `pets/` 下，默认数据目录为 `~/.codex`；设置了 `CODEX_HOME` 时使用该目录。以罗斯为例：
 
 ```text
-~/.codex/pets/friends-rachel-mvp/
+~/.codex/pets/friends-ross-mvp/
 ├── pet.json
 └── spritesheet.webp
 ```
 
-也可以克隆仓库后，在 macOS / Linux 终端运行：
+两个文件应直接放在角色目录中。然后在 Codex 宠物列表中选择对应中文名字，瑞秋的显示名为“瑞秋 MVP”。每个角色使用独立目录，可以同时安装六位角色。
+
+### 克隆仓库后安装全部六人
+
+在 macOS / Linux 终端运行：
 
 ```sh
 git clone https://github.com/lishiyu996/friends-codex-pets.git
 cd friends-codex-pets
-pet_target="${CODEX_HOME:-$HOME/.codex}/pets/friends-rachel-mvp"
-mkdir -p "$pet_target"
-cp -n "制作/瑞秋/final/pet.json" "制作/瑞秋/final/spritesheet.webp" "$pet_target/"
+pets_dir="${CODEX_HOME:-$HOME/.codex}/pets"
+mkdir -p "$pets_dir/friends-rachel-mvp"
+cp -n "制作/瑞秋/final/pet.json" "制作/瑞秋/final/spritesheet.webp" "$pets_dir/friends-rachel-mvp/"
+for character in ross joey phoebe monica chandler; do
+  pet_id="friends-$character-mvp"
+  mkdir -p "$pets_dir/$pet_id"
+  cp -n "制作/五人Codex安装包/$pet_id/pet.json" "制作/五人Codex安装包/$pet_id/spritesheet.webp" "$pets_dir/$pet_id/"
+done
 ```
 
-`cp -n` 不覆盖已有同名文件；升级前请先备份旧目录。然后在 Codex 宠物列表中选择“瑞秋 MVP”。本项目已验证文件结构、透明通道、图集尺寸和安装副本一致性，应用内选择与实际播放尚未完成实测。
+`cp -n` 不覆盖已有同名文件；升级前请先备份旧目录。
 
-瑞秋仅有朝左待机眨眼。走路、挥手已移除，其他任务和交互状态统一使用待机帧；不包含目光跟随。其余五人的 GIF 用于浏览器或图片查看器预览，尚未转换为可安装的 Codex 包。
+### 动作范围与验证
+
+瑞秋仅有朝左待机眨眼，其他任务和交互状态统一使用待机帧。其余五人使用 v1 动画 WebP 图集，保留 v3 的逐帧停留和眨眼时序，各任务状态共用各自的一条动作循环。六人均不包含完整九动作或目光跟随，后续静态形象候选未替换安装包。
+
+已核对文件结构、透明通道、1536×1872 图集尺寸、五人全部时间帧的 72 格一致性与时间线、ZIP 解压安装结构及安装副本哈希。此前已核对本机客户端加载格式与浏览器同类图集渲染，Codex 应用内选择与实际播放尚未完成实测。[打包检查](制作/五人Codex安装包/打包检查.json) · [安装检查](制作/五人Codex安装包/安装检查.json)。
+
+从已有 GIF 重新打包五人可运行 `python3 制作/五人Codex安装包/打包.py`，依赖 Pillow 与 NumPy。该脚本只打包，不执行安装、不修改 GIF，也不重新生成角色形象。
 
 ## 人物与动作
 
@@ -90,6 +112,7 @@ friends-codex-pets/
 │   │   ├── pet_request.json     # 图集规格与状态映射
 │   │   ├── final/               # pet.json、图集、透明基准与安装 ZIP
 │   │   └── qa/                  # GIF、透明边缘与结构检查
+│   ├── 五人Codex安装包/         # 五个 pet.json、动画图集、ZIP、打包工具与检查
 │   └── 五人单动作预览/
 │       ├── 参考/                # 各人参考裁图与六帧布局
 │       ├── 提示词/
@@ -110,7 +133,7 @@ friends-codex-pets/
 - [形象设计方案](设计/老友记Codex桌宠-形象设计方案.md)记录角色确认范围。`三人形象修订02` 中仅莫妮卡被采用，图中的旧瑞秋、钱德勒不属于定稿。
 - 四份原始参考图原样保留。角色动作使用参考图与内置图像生成服务制作，后续进行分帧、配准、透明边缘处理和 GIF 编码。
 - 五人的提示词、原动作条、PNG、闭眼掩膜、时间线和检查记录均公开。早期临时处理脚本没有保留，当前仓库不提供完整的一键重建流水线。
-- 瑞秋采用 1536×1872、8 列 9 行、单格 192×208 的 v1 图集。五人预览中的自定义停留时长尚未适配 Codex 原生图集播放。
+- 六人均采用 1536×1872、8 列 9 行、单格 192×208 的 v1 图集。五人通过动画 WebP 保留自定义停留时长；同一时刻各格子显示相同姿态，客户端切换任务格子时不改变动作。
 - 乔伊的披萨咬痕较弱，菲比的音符渐隐过渡较简单；PNG 与 GIF 的透明边缘显示也可能有差异。
 - 公开历史从本次整理后的快照开始。检查文件中出现的 `be00d65` 是制作时的本地基线，不是公开仓库中的可用提交；本机缓存和临时文件路径已移除。
 - 未采用的网页 Demo、SVG 与否决试稿已清理，不包含在此版本中。

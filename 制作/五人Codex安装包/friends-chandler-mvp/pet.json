@@ -1,0 +1,7 @@
+{
+  "id": "friends-chandler-mvp",
+  "displayName": "钱德勒",
+  "description": "朝左单动作：西装版原地眨眼；保留 v3 节奏，所有任务及交互状态共用此循环。",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp"
+}

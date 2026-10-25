@@ -1,0 +1,64 @@
+{
+  "pets": [
+    {
+      "pet_id": "friends-chandler-mvp",
+      "display_name": "钱德勒",
+      "status": "installed",
+      "installed_in": "CODEX_HOME/pets/friends-chandler-mvp",
+      "files_sha256": {
+        "pet.json": "0c83bde5c8cc6c6e593be64118d1ab474eef6d1ffc7dad3f29cf57ebaa7b8a00",
+        "spritesheet.webp": "edf79f4381d1d2c57b3d3944551fadb4464a600948f9abfc49569ddc3e242286"
+      },
+      "installed_bytes_match_package": true
+    },
+    {
+      "pet_id": "friends-joey-mvp",
+      "display_name": "乔伊",
+      "status": "installed",
+      "installed_in": "CODEX_HOME/pets/friends-joey-mvp",
+      "files_sha256": {
+        "pet.json": "7bad77af49ca03912a3a1470c8a337ab2baae388e969d6fd32036a7b3d84f87d",
+        "spritesheet.webp": "ff20b1b234047033834d89591acd98404e363c49f9b7b38f768b98a47aeb9075"
+      },
+      "installed_bytes_match_package": true
+    },
+    {
+      "pet_id": "friends-monica-mvp",
+      "display_name": "莫妮卡",
+      "status": "installed",
+      "installed_in": "CODEX_HOME/pets/friends-monica-mvp",
+      "files_sha256": {
+        "pet.json": "4b86e5ba34e701957b5a3bba289406e0aac8e2f66b1b5a3dd337f233b3336187",
+        "spritesheet.webp": "f7bea0d130883a1a2172b72e93a188dfb8068800f177f52d4604ceb8ba6ae740"
+      },
+      "installed_bytes_match_package": true
+    },
+    {
+      "pet_id": "friends-phoebe-mvp",
+      "display_name": "菲比",
+      "status": "installed",
+      "installed_in": "CODEX_HOME/pets/friends-phoebe-mvp",
+      "files_sha256": {
+        "pet.json": "92662851c6592eac65983e31656256b552ff813cf0c1a82a5e760a49c439c624",
+        "spritesheet.webp": "4bda668554e7017283d9ba4bd42816852e6241dd40456fa64fbd026ca37c7dba"
+      },
+      "installed_bytes_match_package": true
+    },
+    {
+      "pet_id": "friends-ross-mvp",
+      "display_name": "罗斯",
+      "status": "installed",
+      "installed_in": "CODEX_HOME/pets/friends-ross-mvp",
+      "files_sha256": {
+        "pet.json": "dfaccaf84c5a90f59e4d37e68a95d95642df471da111e09316cc9b2b067e1fa4",
+        "spritesheet.webp": "5a4ae5553b81b4ae8c868e62d2cb23b427d6cf5e86e88d456e36beb0cf416df0"
+      },
+      "installed_bytes_match_package": true
+    }
+  ],
+  "rachel_original_installation_unchanged": true,
+  "browser_css_animation_checked": true,
+  "native_application_ui_verified": false,
+  "native_ui_note": "核对了本机客户端加载器与 CSS 图集渲染方式；未操作应用内选择。",
+  "latest_static_candidates_installed": false
+}

@@ -1,0 +1,7 @@
+{
+  "id": "friends-ross-mvp",
+  "displayName": "罗斯",
+  "description": "朝左单动作：抱恐龙书与伸手，停留时眨眼；保留 v3 节奏，所有任务及交互状态共用此循环。",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp"
+}

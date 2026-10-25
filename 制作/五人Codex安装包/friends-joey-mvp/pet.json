@@ -1,0 +1,7 @@
+{
+  "id": "friends-joey-mvp",
+  "displayName": "乔伊",
+  "description": "朝左单动作：持披萨、吃披萨与眨眼；保留 v3 节奏，所有任务及交互状态共用此循环。",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp"
+}

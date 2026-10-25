@@ -1,0 +1,7 @@
+{
+  "id": "friends-phoebe-mvp",
+  "displayName": "菲比",
+  "description": "朝左单动作：抱吉他、音符上升与眨眼；保留 v3 节奏，所有任务及交互状态共用此循环。",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp"
+}
