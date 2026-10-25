@@ -1,0 +1,19 @@
+{
+  "name": "菲比",
+  "only_eye_region_changed": true,
+  "original_alpha_preserved": true,
+  "changed_pixel_count": 1871,
+  "eye_mask_bounds": [
+    155,
+    84,
+    228,
+    138
+  ],
+  "crop_in_original_frame": [
+    143,
+    70,
+    241,
+    152
+  ],
+  "generation_mode": "built-in imagegen eyelids only; deterministic masked compositing"
+}

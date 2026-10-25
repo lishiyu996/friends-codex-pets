@@ -1,0 +1,13 @@
+{
+  "name": "罗斯",
+  "crop_in_original_frame": [
+    130,
+    50,
+    240,
+    165
+  ],
+  "reference_size": [
+    1024,
+    1072
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "菲比",
+  "checkpoint": "be00d65",
+  "old_cycle_ms": 2280,
+  "new_cycle_ms": 4560,
+  "encoded_gif_frames": 14,
+  "new_blink_events": 1,
+  "existing_pose_pixels_preserved": true,
+  "new_blink_outside_eye_mask_unchanged": true,
+  "source_pose_frames_unchanged": true,
+  "body_transition_speed_preserved": true,
+  "durations_ms": [
+    360,
+    360,
+    360,
+    360,
+    360,
+    480,
+    100,
+    120,
+    140,
+    360,
+    360,
+    360,
+    360,
+    480
+  ],
+  "music_speed_unchanged": true,
+  "music_cycle_ms": 2280,
+  "music_cycles_per_gif": 2
+}

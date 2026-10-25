@@ -1,0 +1,19 @@
+{
+  "name": "罗斯",
+  "only_eye_region_changed": true,
+  "original_alpha_preserved": true,
+  "changed_pixel_count": 1454,
+  "eye_mask_bounds": [
+    158,
+    93,
+    223,
+    138
+  ],
+  "crop_in_original_frame": [
+    130,
+    50,
+    240,
+    165
+  ],
+  "generation_mode": "built-in imagegen eyelids only; deterministic masked compositing"
+}

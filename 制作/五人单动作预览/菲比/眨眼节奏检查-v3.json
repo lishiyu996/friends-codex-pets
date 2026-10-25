@@ -1,0 +1,24 @@
+{
+  "name": "菲比",
+  "cycle_ms": 4560,
+  "blink_events_per_gif": 2,
+  "blink_poses": [
+    2,
+    3
+  ],
+  "blink_starts_ms": [
+    460,
+    3100
+  ],
+  "blink_interval_ms": [
+    2640,
+    1920
+  ],
+  "max_blink_gap_ms": 2640,
+  "existing_pose_pixels_preserved": true,
+  "new_blink_outside_eyes_unchanged": true,
+  "alpha_preserved": true,
+  "gif_frames": 16,
+  "pose_dwell_preserved": true,
+  "notes_speed_preserved": true
+}

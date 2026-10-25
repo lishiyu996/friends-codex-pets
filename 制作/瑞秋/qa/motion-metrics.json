@@ -1,0 +1,11 @@
+{
+  "idle": {
+    "frames": 6,
+    "direction": "screen-left",
+    "same_alpha_in_all_frames": true,
+    "fixed_perimeter_rgb": true,
+    "used_actions": [
+      "idle"
+    ]
+  }
+}

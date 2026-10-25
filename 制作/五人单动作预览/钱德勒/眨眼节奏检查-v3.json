@@ -1,0 +1,21 @@
+{
+  "name": "钱德勒",
+  "cycle_ms": 2560,
+  "blink_events_per_gif": 1,
+  "blink_poses": [
+    4
+  ],
+  "blink_starts_ms": [
+    1220
+  ],
+  "blink_interval_ms": [
+    2560
+  ],
+  "max_blink_gap_ms": 2560,
+  "existing_pose_pixels_preserved": true,
+  "new_blink_outside_eyes_unchanged": true,
+  "alpha_preserved": true,
+  "gif_frames": 6,
+  "pose_dwell_preserved": false,
+  "notes_speed_preserved": false
+}

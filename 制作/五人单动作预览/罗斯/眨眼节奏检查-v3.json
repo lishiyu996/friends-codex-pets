@@ -1,0 +1,27 @@
+{
+  "name": "罗斯",
+  "cycle_ms": 6900,
+  "blink_events_per_gif": 3,
+  "blink_poses": [
+    1,
+    4,
+    6
+  ],
+  "blink_starts_ms": [
+    1800,
+    4150,
+    6400
+  ],
+  "blink_interval_ms": [
+    2350,
+    2250,
+    2300
+  ],
+  "max_blink_gap_ms": 2350,
+  "existing_pose_pixels_preserved": true,
+  "new_blink_outside_eyes_unchanged": true,
+  "alpha_preserved": true,
+  "gif_frames": 12,
+  "pose_dwell_preserved": true,
+  "notes_speed_preserved": false
+}

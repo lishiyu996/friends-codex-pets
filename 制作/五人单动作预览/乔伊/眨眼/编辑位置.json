@@ -1,0 +1,13 @@
+{
+  "name": "乔伊",
+  "crop_in_original_frame": [
+    118,
+    77,
+    224,
+    176
+  ],
+  "reference_size": [
+    1024,
+    960
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "mvp_actions": [
+    "idle"
+  ],
+  "direction": "screen-left",
+  "rows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "count": 6,
+      "source_action": "idle",
+      "source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fallback": false
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "count": 8,
+      "source_action": "idle",
+      "source_indices": [
+        0,
+        1,
+        1,
+        2,
+        3,
+        4,
+        4,
+        5
+      ],
+      "fallback": true
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "count": 8,
+      "source_action": "idle",
+      "source_indices": [
+        0,
+        1,
+        1,
+        2,
+        3,
+        4,
+        4,
+        5
+      ],
+      "fallback": true
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "count": 4,
+      "source_action": "idle",
+      "source_indices": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "fallback": true
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "count": 5,
+      "source_action": "idle",
+      "source_indices": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "fallback": true
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "count": 8,
+      "source_action": "idle",
+      "source_indices": [
+        0,
+        1,
+        1,
+        2,
+        3,
+        4,
+        4,
+        5
+      ],
+      "fallback": true
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "count": 6,
+      "source_action": "idle",
+      "source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fallback": true
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "count": 6,
+      "source_action": "idle",
+      "source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fallback": true
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "count": 6,
+      "source_action": "idle",
+      "source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fallback": true
+    }
+  ]
+}

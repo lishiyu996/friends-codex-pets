@@ -1,0 +1,23 @@
+{
+  "name": "罗斯",
+  "checkpoint": "be00d65",
+  "old_cycle_ms": 2850,
+  "new_cycle_ms": 6900,
+  "encoded_gif_frames": 8,
+  "new_blink_events": 1,
+  "existing_pose_pixels_preserved": true,
+  "new_blink_outside_eye_mask_unchanged": true,
+  "source_pose_frames_unchanged": true,
+  "body_transition_speed_preserved": true,
+  "durations_ms": [
+    1800,
+    120,
+    580,
+    220,
+    330,
+    2800,
+    250,
+    800
+  ],
+  "music_speed_unchanged": false
+}

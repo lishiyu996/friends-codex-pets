@@ -1,0 +1,40 @@
+{
+  "operations": [
+    "temporal-median alpha shared across six existing frames",
+    "alpha cleanup below 32 and strengthen above 224",
+    "temporal-median RGB on perimeter band only",
+    "horizontal mirror to face viewer left",
+    "global GIF palette with reserved transparent index 0; no dithering; alpha threshold 128"
+  ],
+  "native_alpha_mask_varying_pixels_before": 6965,
+  "native_alpha_mask_varying_pixels_after": 0,
+  "gif_visible_pixels_before": [
+    8516,
+    8515,
+    8559,
+    8517,
+    8516,
+    8525
+  ],
+  "gif_visible_pixels_after": [
+    7276,
+    7276,
+    7276,
+    7276,
+    7276,
+    7276
+  ],
+  "old_first_frame_low_alpha_made_opaque_pixels": 1243,
+  "new_gif_alpha_matches_threshold_exactly": true,
+  "perimeter_rgb_varying_pixels_after": 0,
+  "edge_band_pixels": 1677,
+  "idle_frames": 6,
+  "gif_frames": 6,
+  "face_direction": "screen-left",
+  "removed_actions": [
+    "waving",
+    "movement"
+  ],
+  "original_source_unchanged": true,
+  "no_image_generation_used": true
+}

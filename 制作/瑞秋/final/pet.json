@@ -1,0 +1,7 @@
+{
+  "id": "friends-rachel-mvp",
+  "displayName": "瑞秋 MVP",
+  "description": "朝左待机；所有任务及交互状态使用同一待机动作。",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp"
+}

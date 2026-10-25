@@ -1,0 +1,93 @@
+{
+  "name": "罗斯",
+  "revision": 3,
+  "checkpoint": "be00d65",
+  "cycle_ms": 6900,
+  "events": [
+    {
+      "pose_frame": 1,
+      "duration_ms": 1800,
+      "label": "抱书停留",
+      "blink": false
+    },
+    {
+      "pose_frame": 1,
+      "duration_ms": 120,
+      "label": "抱书眨眼",
+      "blink": true
+    },
+    {
+      "pose_frame": 1,
+      "duration_ms": 580,
+      "label": "抱书停留",
+      "blink": false
+    },
+    {
+      "pose_frame": 2,
+      "duration_ms": 220,
+      "label": "抬臂过渡",
+      "blink": false
+    },
+    {
+      "pose_frame": 3,
+      "duration_ms": 330,
+      "label": "伸手过渡",
+      "blink": false
+    },
+    {
+      "pose_frame": 4,
+      "duration_ms": 1100,
+      "label": "伸手停留",
+      "blink": false
+    },
+    {
+      "pose_frame": 4,
+      "duration_ms": 120,
+      "label": "伸手时眨眼",
+      "blink": true
+    },
+    {
+      "pose_frame": 4,
+      "duration_ms": 1580,
+      "label": "继续伸手停留",
+      "blink": false
+    },
+    {
+      "pose_frame": 5,
+      "duration_ms": 250,
+      "label": "收臂过渡",
+      "blink": false
+    },
+    {
+      "pose_frame": 6,
+      "duration_ms": 300,
+      "label": "回位停留",
+      "blink": false
+    },
+    {
+      "pose_frame": 6,
+      "duration_ms": 120,
+      "label": "回位后眨眼",
+      "blink": true
+    },
+    {
+      "pose_frame": 6,
+      "duration_ms": 380,
+      "label": "回位停留",
+      "blink": false
+    }
+  ],
+  "blink_starts_ms": [
+    1800,
+    4150,
+    6400
+  ],
+  "blink_start_intervals_ms": [
+    2350,
+    2250,
+    2300
+  ],
+  "blink_independent_of_pose_transitions": true,
+  "pose_dwell_and_transition_times_unchanged_from_v2": true,
+  "notes_cycle_ms": null
+}

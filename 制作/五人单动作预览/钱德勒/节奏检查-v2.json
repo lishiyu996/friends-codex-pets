@@ -1,0 +1,21 @@
+{
+  "name": "钱德勒",
+  "checkpoint": "be00d65",
+  "old_cycle_ms": 3660,
+  "new_cycle_ms": 5760,
+  "encoded_gif_frames": 6,
+  "new_blink_events": 0,
+  "existing_pose_pixels_preserved": true,
+  "new_blink_outside_eye_mask_unchanged": true,
+  "source_pose_frames_unchanged": true,
+  "body_transition_speed_preserved": true,
+  "durations_ms": [
+    2500,
+    180,
+    140,
+    160,
+    180,
+    2600
+  ],
+  "music_speed_unchanged": false
+}

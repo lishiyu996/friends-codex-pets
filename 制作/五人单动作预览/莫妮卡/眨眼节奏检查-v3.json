@@ -1,0 +1,27 @@
+{
+  "name": "莫妮卡",
+  "cycle_ms": 8040,
+  "blink_events_per_gif": 3,
+  "blink_poses": [
+    1,
+    3,
+    6
+  ],
+  "blink_starts_ms": [
+    1300,
+    4000,
+    7000
+  ],
+  "blink_interval_ms": [
+    2700,
+    3000,
+    2340
+  ],
+  "max_blink_gap_ms": 3000,
+  "existing_pose_pixels_preserved": true,
+  "new_blink_outside_eyes_unchanged": true,
+  "alpha_preserved": true,
+  "gif_frames": 11,
+  "pose_dwell_preserved": true,
+  "notes_speed_preserved": false
+}

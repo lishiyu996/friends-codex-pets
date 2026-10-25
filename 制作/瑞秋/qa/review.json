@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "frames_root": null,
+  "states": [
+    "idle"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": null,
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7721,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0,
+          "atlas_cell": {
+            "row": 0,
+            "column": 0
+          }
+        },
+        {
+          "index": 1,
+          "file": null,
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7721,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0,
+          "atlas_cell": {
+            "row": 0,
+            "column": 1
+          }
+        },
+        {
+          "index": 2,
+          "file": null,
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7721,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0,
+          "atlas_cell": {
+            "row": 0,
+            "column": 2
+          }
+        },
+        {
+          "index": 3,
+          "file": null,
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7721,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0,
+          "atlas_cell": {
+            "row": 0,
+            "column": 3
+          }
+        },
+        {
+          "index": 4,
+          "file": null,
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7721,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0,
+          "atlas_cell": {
+            "row": 0,
+            "column": 4
+          }
+        },
+        {
+          "index": 5,
+          "file": null,
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7721,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0,
+          "atlas_cell": {
+            "row": 0,
+            "column": 5
+          }
+        }
+      ]
+    }
+  ],
+  "source_atlas": "制作/瑞秋/final/spritesheet.webp",
+  "public_export_note": "早期临时分帧目录已清理；原检查结果保留，各帧对应图集 idle 行的列索引。"
+}

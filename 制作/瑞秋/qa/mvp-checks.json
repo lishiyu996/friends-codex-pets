@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "runtime_states_all_use_left_idle": true,
+  "wave_and_walk_removed": true,
+  "native_alpha_identical_in_all_idle_frames": true,
+  "gif_edge_rgb_varying_pixels": 0,
+  "gif_alpha_matches_explicit_threshold": true,
+  "gif_frame_durations_ms": [
+    280,
+    110,
+    110,
+    140,
+    140,
+    320
+  ],
+  "gif_transparency_index": 0,
+  "source_original_unchanged": true,
+  "native_ui_verified": false,
+  "installed_directory": "~/.codex/pets/friends-rachel-mvp",
+  "installed_bytes_match_project": true
+}

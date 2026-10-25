@@ -1,0 +1,19 @@
+{
+  "name": "乔伊",
+  "only_eye_region_changed": true,
+  "original_alpha_preserved": true,
+  "changed_pixel_count": 1749,
+  "eye_mask_bounds": [
+    135,
+    105,
+    209,
+    149
+  ],
+  "crop_in_original_frame": [
+    118,
+    77,
+    224,
+    176
+  ],
+  "generation_mode": "built-in imagegen eyelids only; deterministic masked compositing"
+}

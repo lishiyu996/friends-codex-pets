@@ -1,0 +1,12 @@
+{
+  "visual_qa": "pass",
+  "scope": "screen-left idle only; waving and walking removed",
+  "qa_note": "人物朝屏幕左侧，仅六帧眨眼待机。身体和脚底基线稳定，实际192×208尺寸无明显游离点、浅色描边、透明洞、裁切或缺肢；边缘较旧版干净。",
+  "warnings": [
+    "GIF二值透明使发丝与袖口边缘略有阶梯感，实际尺寸可接受。",
+    "眨眼循环约1.1秒，节奏偏频繁。",
+    "Codex应用内实际播放未实测。"
+  ],
+  "reviewer": "independent_rachel_left_idle_qa",
+  "repair_notes": []
+}

@@ -1,0 +1,13 @@
+{
+  "name": "菲比",
+  "crop_in_original_frame": [
+    143,
+    70,
+    241,
+    152
+  ],
+  "reference_size": [
+    1024,
+    864
+  ]
+}

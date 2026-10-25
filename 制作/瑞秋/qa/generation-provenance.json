@@ -1,0 +1,40 @@
+{
+  "generation_tool": "built-in imagegen",
+  "native_alpha": true,
+  "jobs": [
+    {
+      "id": "base",
+      "status": "complete",
+      "source_path": null,
+      "qa_note": "真实透明Alpha，全身完整；原图身份与服装保留。",
+      "source_sha256": "ce451243eb3aefd5e8c70c4a41c9870b4c1478d286f1894220c29053767809d4",
+      "intermediate_source_retained": false
+    },
+    {
+      "id": "idle",
+      "status": "complete",
+      "selected_source": null,
+      "source_sha256": "9cce61add40ce1ae61193bf5e72806a59037cf2e666f4f2261e37850e2d4f146",
+      "qa_note": "六帧真实Alpha，呼吸与眨眼，身体完整且分离。",
+      "deterministic_qa": "pass: component extraction, frame count, alpha, dimensions and edge checks; no errors or warnings",
+      "intermediate_source_retained": false
+    }
+  ],
+  "fallback_states": [
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "revision": {
+    "user_request": "移除挥手，只保留朝左待机，修复轮廓闪点",
+    "new_imagegen_output": false,
+    "processing": "existing idle frames only: shared Alpha contour, stable temporal-median perimeter RGB, horizontal mirror, global GIF palette and explicit binary transparency without dithering",
+    "report": "edge-cleanup.json"
+  },
+  "public_export_note": "生成缓存路径已移除；早期中间源图未随仓库保留，保留源文件 SHA-256 与检查记录。"
+}

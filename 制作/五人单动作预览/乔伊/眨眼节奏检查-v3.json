@@ -1,0 +1,24 @@
+{
+  "name": "乔伊",
+  "cycle_ms": 6240,
+  "blink_events_per_gif": 2,
+  "blink_poses": [
+    1,
+    6
+  ],
+  "blink_starts_ms": [
+    2200,
+    5100
+  ],
+  "blink_interval_ms": [
+    2900,
+    3340
+  ],
+  "max_blink_gap_ms": 3340,
+  "existing_pose_pixels_preserved": true,
+  "new_blink_outside_eyes_unchanged": true,
+  "alpha_preserved": true,
+  "gif_frames": 10,
+  "pose_dwell_preserved": true,
+  "notes_speed_preserved": false
+}
